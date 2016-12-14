@@ -1,0 +1,504 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    height: 3200px;
+    position: absolute;
+    overflow: hidden;
+}
+
+body {
+    width: 1100px;
+    height: 1500px;
+}
+
+@font-face {
+    font-family: Univers;
+    src: url(../fonts/UniversLTStd-XBlack.otf);
+}
+
+#header {
+    width: 925px;
+    height:130px;
+    margin-left:170px;
+    margin-top:-60px;
+    font-family: Univers;
+    font-size: 75px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 12px;
+}
+
+#subtext {
+    width: 890px;
+    margin-top: 35px;
+    margin-left:203px;
+    font-family: Univers;
+    text-transform: uppercase;
+    font-size: 42px;
+    color: #004BFF;
+    letter-spacing: 12px;
+}
+
+#nav {
+    margin-left: 48px;
+    margin-top:30px;
+    width:1080px;
+}
+
+@font-face {
+    font-family:UniversBold;
+    src: url(../fonts/UniversLTStd-Bold.otf)
+}
+
+.nav li {
+    display: inline;
+    padding-left: 70px;
+    font-family: UniversBold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#button1 {
+	width: 150px;
+	height: 40px;
+	font-family: Avenir;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+
+.wrapper1 {
+	position: absolute;
+	left: 158px;
+	top: 280px;
+    width:150px
+}
+
+.drop1 {
+	width: 150px;
+	height: 198px;
+			
+	background-color: white;
+	
+	font-family: Univers57;
+	color: white;
+	text-align: center;
+	line-height: 25px;
+}
+
+#button2 {
+	width: 150px;
+	height: 40px;
+	font-family: Avenir;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+
+.wrapper2 {
+	position: absolute;
+	left: 382px;
+	top: 280px;
+    width:153px
+}
+
+.drop2 {
+	width: 150px;
+	height: 80px;
+			
+	background-color: white;
+	
+	font-family: Univers57;
+	color: white;
+	text-align: center;
+	line-height: 25px;
+}
+
+#button3 {
+	width: 150px;
+	height: 40px;
+	color: white;
+}
+
+.wrapper3 {
+	position: absolute;
+	left: 595px;
+	top: 280px;
+    width:100px
+}
+
+.drop3 {
+	width: 130px;
+	height: 50px;
+	background-color: white;
+	font-family: Univers57;
+	color: white;
+	text-align: left;
+    padding:10px;
+	line-height: 25px;
+}
+
+#button4 {
+	width: 150px;
+	height: 40px;
+	color: white;
+}
+
+.wrapper4 {
+	position: absolute;
+	left: 755px;
+	top: 280px;
+    width:150px
+}
+
+.drop4 {
+	width: 130px;
+	height: 130px;
+	background-color: white;
+	font-family: Univers57;
+	color: white;
+	text-align: left;
+    padding: 10px;
+	line-height: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #004BFF;	
+}
+
+a:hover {
+	color: black;
+}
+
+#homeimg {
+    width:1600px;
+    height:700px;
+    background-image: url(../imgs/mono_Home.jpg);
+    background-repeat: no-repeat;
+    margin-left: 140px;
+}
+
+#skulls {
+    margin-left:100px;
+    width:1200px;
+}
+
+.skullies li {
+    display: inline;
+    
+}
+
+.hours {
+    width:1100px;
+    height:500px;
+    margin-left:100px;
+    margin-top:-60px;
+}
+
+#hourshead {
+    font-family: Univers;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #004BFF;
+    text-align: center;
+}
+
+#months {
+    width:760px;
+    margin-top: -100px;
+    margin-left: 190px;
+    font-family: Univers;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+
+#hoursgraphic {
+    margin-top:100px;
+    margin-left:195px;
+    position: absolute;
+    z-index: 1;
+}
+
+.hoursimg1 li {
+    display:inline;
+    margin-left: -40px;
+    padding:20px;
+    position: relative;
+}
+
+.hoursimg2 li {
+    display:inline;
+    margin-left: -40px;
+    padding:20px;
+    position: relative;
+}
+
+#events {
+    width: 1100px;
+    min-height: 440px;
+    margin-left: 95px;
+    margin-top:280px;
+}
+
+#bar {
+    height:40px;
+    width:1060px;
+    background-color:#004BFF;
+    margin-top:10px;
+}
+
+#clickbar {
+    display: none;
+    height:200px;
+    width:1060px;
+    background-color:#004BFF;
+    margin-top:-25px;
+}
+
+.no {
+    position: relative;
+    font-family: UniversBold;
+    color:white;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    top: 75px;
+}
+
+.bottomstuff {
+    width:645px;
+    height:300px;
+}
+
+#box {
+    height:300px;
+    width:650px;
+    background-color: #004BFF;
+    margin-top: 30px;
+}
+
+#subscribe {
+    font-family: UniversBold;
+    color:white;
+    margin-top: -297px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 23px;
+    margin-left:30px;
+}
+
+@font-face {
+    font-family: Univers57;
+    src: url(../fonts/UniversLTStd-Cn.otf);
+}
+
+#address {
+    margin-left:30px;
+    font-family: Univers57;
+    color:white;
+    font-size:20px;
+    width:200px;
+}
+
+#form {
+    height: 40px;
+    width:500px;
+    background-color: white;
+    margin-left:30px;
+    margin-top: -15px;
+}
+
+#form2 {
+    height: 40px;
+    width:100px;
+    background-color: white;
+    margin-left:30px;
+    margin-top: 12px;
+}
+
+#button {
+    width:100px;
+    margin-left:38px;
+    font-family: Univers57;
+    color:black;
+    font-size:20px;
+    margin-top: -31px;
+}
+
+.ltr {
+    width: 550px;
+    margin-top: 35px;
+    margin-left:390px;
+    font-family: Univers;
+    text-transform: uppercase;
+    font-size: 42px;
+    color: #004BFF;
+    letter-spacing: 12px;
+}
+
+.walkin {
+    width:1200px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+#wlessons {
+    font-family: Univers;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #004BFF;
+    text-align: center;
+    margin-top: -505px;
+    margin-left: 140px;
+    width: 800px;
+}
+
+#bar2 {
+    height:40px;
+    width:1060px;
+    background-color:#004BFF;
+}
+
+#clickbar2 {
+    display: none;
+    height:240px;
+    width:1060px;
+    background-color:#004BFF;
+    margin-top:-25px;
+}
+
+.walklinfo {
+    width:700px;
+    margin-left: 20px;
+    top: 1050px;
+    position: absolute;
+}
+
+.privateinfo {
+    width:700px;
+    margin-left: 20px;
+    top: 1720px;
+    position: absolute;
+}
+
+.space {
+    height:200px;
+}
+
+h3 {
+    font-family: UniversBold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: .5;
+}
+
+p {
+    font-family: Univers57;
+    color:white;
+    font-size: 18px;
+}
+
+.private {
+    width:1200px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#plessons {
+    font-family: Univers;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #004BFF;
+    text-align: center;
+    margin-top: -505px;
+    margin-left: 140px;
+    width: 800px;
+}
+
+#bar3 {
+    height:40px;
+    width:1060px;
+    background-color:#004BFF;
+}
+
+#clickbar3 {
+    display: none;
+    height:240px;
+    width:1060px;
+    background-color:#004BFF;
+    margin-top:-25px;
+}
+
+.loc {
+    width: 370px;
+    margin-top: 35px;
+    margin-left:450px;
+    font-family: Univers;
+    text-transform: uppercase;
+    font-size: 42px;
+    color: #004BFF;
+    letter-spacing: 12px;
+}
+
+.golden {
+    position: absolute;
+    left:100px;
+    top:450px;
+    height:300px;
+}
+
+.goldenstuff {
+    display: none;
+    height: 800px;
+}
+
+.hopkins {
+    position: absolute;
+    left:100px;
+    top:600px;
+}
+
+.hopkinsstuff {
+    display: none;
+    height: 800px;
+}
+
+.golden h1 {
+    position: absolute;
+    top: 0px;
+    left:285px;
+    font-family: Univers;
+    text-transform: uppercase;
+    font-size: 60px;
+    color:#004BFF;
+}
+
+.hopkins h1 {
+    position: absolute;
+    top: 0px;
+    left:395px;
+    font-family: Univers;
+    text-transform: uppercase;
+    font-size: 60px;
+    color:#004BFF;
+}
+
+#arrow {
+    position: absolute;
+    top: 100px;
+    left:530px;
+    z-index: 1;   
+}
