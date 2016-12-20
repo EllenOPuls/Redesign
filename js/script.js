@@ -40,6 +40,8 @@ $(document).ready(function() {
         $('.drop4').slideUp('fast');
 	});
     
+    
+    
     var img = $("#privategraphicBW");
     
 $('#privategraphicBW').hover(function() {
@@ -124,6 +126,92 @@ $('.private').click(function() {
       $('#clickbar3').slideUp(1000);                 
     }
 });
+    
+$('.hopkins').click(function() {
+    if($('.hopkinsstuff').css('display') == 'none') {
+       $('.hopkinsstuff').slideDown(2000);
+       }
+    else {
+      $('.hopkinsstuff').slideUp(2000);                 
+    }
+});
+    
+$('.golden').click(function() {
+    if($('.goldenstuff').css('display') == 'none') {
+       $('.goldenstuff').slideDown(2000);
+       }
+    else {
+      $('.goldenstuff').slideUp(2000);                 
+    }
+});
+    
+$('#arrowup').click(function() {
+    if($('.goldenstuff').css('display') == 'none') {
+       $('.goldenstuff').slideDown(2000);
+       }
+    else {
+      $('.goldenstuff').slideUp(2000);                 
+    }
+});
+    
+$('#arrowup2').click(function() {
+    if($('.hopkinsstuff').css('display') == 'none') {
+       $('.hopkinsstuff').slideDown(2000);
+       }
+    else {
+      $('.hopkinsstuff').slideUp(2000);                 
+    }
+});
 
+$('.golden').hover(function() {
+    $(this).css('cursor', 'pointer');
+});
+    
+$('#arrowup').hover(function() {
+    $(this).css('cursor', 'pointer');
+});
+    
+$('#arrowup2').hover(function() {
+    $(this).css('cursor', 'pointer');
+});
+    
+$('.hopkins').hover(function() {
+    $(this).css('cursor', 'pointer');
+});
+    
+$('#home').hover(function() {
+    $(this).css('cursor', 'pointer');
+});
+    
+$('.arrow').hover(function() {
+    $(this).css('cursor', 'pointer');
+});
+    
+$('#arrow').hover(function() {
+    $(this).css('cursor', 'pointer');
+});
+    
+$('#warrow').hover(function() {
+    $(this).css('cursor', 'pointer');
+});
+    
+$('#warrow2').hover(function() {
+    $(this).css('cursor', 'pointer');
+});
+    
+$('#button').hover(function() {
+    $(this).attr('src', 'imgs/blackbutton.png');
+    $(this).css('cursor', 'pointer');
+    }, function() {
+    $(this).attr('src', 'imgs/whitebutton.png');
+});
+    
+var homeimgs = ['bowl', 'street'];
+    
+    document.getElementById("homeimg").innerHTML = homeimgs[Math.floor(Math.random()*homeimgs.length)];
+    
+    var images = ["../imgs/mono_Home.jpg", "../imgs/homeimg2.jpg"];
+    $("#homeimg").css({"background-image": "url(imgs/"+images[Math.floor(Math.random()*images.length)]+")"});
+    
 
 });
